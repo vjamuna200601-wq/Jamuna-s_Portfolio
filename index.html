@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jamuna V — Aspiring AI &amp; Machine Learning Engineer</title>
+  <meta name="description" content="Portfolio of Jamuna V, B.Tech Artificial Intelligence and Data Science student and aspiring AI &amp; Machine Learning Engineer.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Background grid + glow layer -->
+  <div class="bg-layer" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow--pink"></div>
+    <div class="bg-glow bg-glow--purple"></div>
+  </div>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <a href="#home" class="nav-logo">Jamuna<span>V</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== HERO ===================== -->
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-eyebrow">Hi, I'm</p>
+          <h1 class="hero-name">Jamuna V</h1>
+          <p class="hero-title">Aspiring AI &amp; Machine Learning Engineer</p>
+          <p class="hero-subtitle">Python Developer&nbsp;|&nbsp;Data Science Enthusiast&nbsp;|&nbsp;Cloud &amp; DevOps Enthusiast</p>
+
+          <div class="hero-typing" aria-hidden="true">
+            <span id="typingText"></span><span class="typing-cursor">|</span>
+          </div>
+          <p class="sr-only" id="typingFallback">AI &amp; Machine Learning Enthusiast, Python Developer, Data Science Enthusiast, Cloud &amp; DevOps Learner</p>
+
+          <p class="hero-desc">Passionate about building practical AI, machine-learning, data analytics, cloud, and DevOps solutions using modern technologies.</p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" data-scroll>Explore My Projects</a>
+            <a href="assets/resume/Jamuna_V_Resume.pdf" class="btn btn-ghost" id="heroResumeBtn" target="_blank" rel="noopener noreferrer">Download Resume</a>
+            <a href="#contact" class="btn btn-outline" data-scroll>Contact Me</a>
+          </div>
+
+          <ul class="hero-social" aria-label="Contact and profile links">
+            <li>
+              <a href="https://github.com/vjamuna200601-wq" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+                <span>GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/jamuna-v-130159289/" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:vjamuna200601@gmail.com">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 7l8.5 6 8.5-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>vjamuna200601@gmail.com</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="hero-tags" aria-hidden="true">
+            <span class="hero-tag">Python</span>
+            <span class="hero-tag">Machine Learning</span>
+            <span class="hero-tag">SQL</span>
+            <span class="hero-tag">Kubernetes</span>
+            <span class="hero-tag">Cloud</span>
+            <span class="hero-tag">Data Science</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-orb">
+            <img src="assets/images/profile.jpg" alt="" class="hero-photo">
+          </div>
+          <svg class="hero-circuit" viewBox="0 0 400 400" fill="none">
+            <circle cx="200" cy="200" r="150" stroke="url(#circuitGrad)" stroke-width="1" opacity="0.5"/>
+            <circle cx="200" cy="200" r="120" stroke="url(#circuitGrad)" stroke-width="1" opacity="0.35"/>
+            <path d="M200 50 L200 90 M350 200 L310 200 M200 350 L200 310 M50 200 L90 200" stroke="url(#circuitGrad)" stroke-width="1.5"/>
+            <circle cx="200" cy="50" r="4" fill="#ff3cac"/>
+            <circle cx="350" cy="200" r="4" fill="#784bff"/>
+            <circle cx="200" cy="350" r="4" fill="#c084fc"/>
+            <circle cx="50" cy="200" r="4" fill="#ff3cac"/>
+            <defs>
+              <linearGradient id="circuitGrad" x1="0" y1="0" x2="400" y2="400">
+                <stop offset="0%" stop-color="#ff3cac"/>
+                <stop offset="100%" stop-color="#784bff"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" data-scroll aria-label="Scroll to About section">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="section">
+      <div class="section-inner about-grid">
+        <div class="about-content reveal">
+          <h2 class="section-title">About Me</h2>
+          <p class="about-text">I am Jamuna V, a B.Tech Artificial Intelligence and Data Science student at Ramco Institute of Technology. I am passionate about Artificial Intelligence, Machine Learning, Python development, data analytics, cloud computing, and DevOps.</p>
+          <p class="about-text">I enjoy building practical projects that combine intelligent systems, automation, and real-world problem solving. My projects include a Heart Disease Risk Prediction System, a Kubernetes Auto-Scaling Simulation, and SheSafe, a women's safety web application.</p>
+          <p class="about-text">I am continuously improving my technical skills and looking for opportunities to contribute to innovative projects while growing as an AI and Machine Learning Engineer.</p>
+
+          <ul class="about-interests" aria-label="Interests">
+            <li>Artificial Intelligence</li>
+            <li>Machine Learning</li>
+            <li>Python</li>
+            <li>Data Analytics</li>
+            <li>Generative AI</li>
+            <li>Cloud Computing</li>
+            <li>Kubernetes</li>
+            <li>DevOps</li>
+            <li>Practical problem solving</li>
+          </ul>
+
+          <div class="about-highlights">
+            <div class="glass-card highlight-card">
+              <h3>AI &amp; Machine Learning</h3>
+              <p>Building and evaluating supervised learning models with Python.</p>
+            </div>
+            <div class="glass-card highlight-card">
+              <h3>Python Development</h3>
+              <p>Writing clean, structured Python for data-driven applications.</p>
+            </div>
+            <div class="glass-card highlight-card">
+              <h3>Data Analytics</h3>
+              <p>Exploring and visualizing data with Pandas, Excel and Power BI.</p>
+            </div>
+            <div class="glass-card highlight-card">
+              <h3>Cloud &amp; DevOps</h3>
+              <p>Learning Kubernetes, GCP and cloud-native workflows hands-on.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section id="skills" class="section">
+      <div class="section-inner">
+        <h2 class="section-title reveal">Skills</h2>
+        <p class="section-subtitle reveal">A snapshot of the tools and concepts I work with, grouped by area.</p>
+
+        <div class="skills-tabs reveal" role="tablist" aria-label="Skill categories">
+          <button class="skills-tab is-active" role="tab" aria-selected="true" aria-controls="panel-ai" id="tab-ai" data-target="panel-ai">AI &amp; ML</button>
+          <button class="skills-tab" role="tab" aria-selected="false" aria-controls="panel-lang" id="tab-lang" data-target="panel-lang" tabindex="-1">Languages</button>
+          <button class="skills-tab" role="tab" aria-selected="false" aria-controls="panel-lib" id="tab-lib" data-target="panel-lib" tabindex="-1">Python Libraries</button>
+          <button class="skills-tab" role="tab" aria-selected="false" aria-controls="panel-sql" id="tab-sql" data-target="panel-sql" tabindex="-1">SQL &amp; Databases</button>
+          <button class="skills-tab" role="tab" aria-selected="false" aria-controls="panel-cloud" id="tab-cloud" data-target="panel-cloud" tabindex="-1">Cloud &amp; DevOps</button>
+          <button class="skills-tab" role="tab" aria-selected="false" aria-controls="panel-web" id="tab-web" data-target="panel-web" tabindex="-1">Web &amp; Other</button>
+        </div>
+
+        <div class="skills-panels reveal">
+          <div class="skills-panel is-active" id="panel-ai" role="tabpanel" aria-labelledby="tab-ai">
+            <div class="skill-chip-grid">
+              <span class="skill-chip">Artificial Intelligence</span>
+              <span class="skill-chip">Machine Learning</span>
+              <span class="skill-chip">Supervised Learning</span>
+              <span class="skill-chip">Classification</span>
+              <span class="skill-chip">Regression</span>
+              <span class="skill-chip">K-Nearest Neighbors</span>
+              <span class="skill-chip">Decision Tree</span>
+              <span class="skill-chip">Random Forest</span>
+              <span class="skill-chip">Naive Bayes</span>
+              <span class="skill-chip">Generative AI</span>
+              <span class="skill-chip">Prompt Engineering</span>
+            </div>
+          </div>
+
+          <div class="skills-panel" id="panel-lang" role="tabpanel" aria-labelledby="tab-lang" hidden>
+            <ul class="skill-level-list">
+              <li><span class="skill-name">Python</span><span class="skill-level skill-level--strong">Strong</span></li>
+              <li><span class="skill-name">Java</span><span class="skill-level skill-level--strong">Strong</span></li>
+            </ul>
+          </div>
+
+          <div class="skills-panel" id="panel-lib" role="tabpanel" aria-labelledby="tab-lib" hidden>
+            <ul class="skill-level-list">
+              <li><span class="skill-name">NumPy</span><span class="skill-level skill-level--strong">Strong</span></li>
+              <li><span class="skill-name">Pandas</span><span class="skill-level skill-level--strong">Strong</span></li>
+              <li><span class="skill-name">Matplotlib</span><span class="skill-level skill-level--strong">Strong</span></li>
+              <li><span class="skill-name">Seaborn</span><span class="skill-level skill-level--strong">Strong</span></li>
+              <li><span class="skill-name">Scikit-learn</span><span class="skill-level skill-level--strong">Strong</span></li>
+            </ul>
+          </div>
+
+          <div class="skills-panel" id="panel-sql" role="tabpanel" aria-labelledby="tab-sql" hidden>
+            <ul class="skill-level-list">
+              <li><span class="skill-name">SQL</span><span class="skill-level skill-level--good">Good</span></li>
+              <li><span class="skill-name">MySQL</span><span class="skill-level skill-level--good">Good</span></li>
+              <li><span class="skill-name">PostgreSQL</span><span class="skill-level skill-level--good">Good</span></li>
+              <li><span class="skill-name">DBMS</span><span class="skill-level skill-level--good">Good</span></li>
+              <li><span class="skill-name">SQL Queries</span><span class="skill-level skill-level--good">Good</span></li>
+              <li><span class="skill-name">Joins</span><span class="skill-level skill-level--good">Good</span></li>
+              <li><span class="skill-name">GROUP BY</span><span class="skill-level skill-level--good">Good</span></li>
+              <li><span class="skill-name">HAVING</span><span class="skill-level skill-level--good">Good</span></li>
+            </ul>
+          </div>
+
+          <div class="skills-panel" id="panel-cloud" role="tabpanel" aria-labelledby="tab-cloud" hidden>
+            <ul class="skill-level-list">
+              <li><span class="skill-name">Google Cloud Platform</span><span class="skill-level skill-level--intermediate">Intermediate</span></li>
+              <li><span class="skill-name">Kubernetes</span><span class="skill-level skill-level--intermediate">Intermediate</span></li>
+              <li><span class="skill-name">Minikube</span><span class="skill-level skill-level--intermediate">Intermediate</span></li>
+              <li><span class="skill-name">Locust</span><span class="skill-level skill-level--intermediate">Intermediate</span></li>
+              <li><span class="skill-name">Cloud Computing</span><span class="skill-level skill-level--intermediate">Intermediate</span></li>
+              <li><span class="skill-name">DevOps</span><span class="skill-level skill-level--intermediate">Intermediate</span></li>
+            </ul>
+          </div>
+
+          <div class="skills-panel" id="panel-web" role="tabpanel" aria-labelledby="tab-web" hidden>
+            <ul class="skill-level-list">
+              <li><span class="skill-name">HTML</span><span class="skill-level skill-level--good">Good</span></li>
+              <li><span class="skill-name">CSS</span><span class="skill-level skill-level--good">Good</span></li>
+              <li><span class="skill-name">Flask</span><span class="skill-level skill-level--intermediate">Intermediate</span></li>
+              <li><span class="skill-name">Flutter</span><span class="skill-level skill-level--intermediate">Intermediate</span></li>
+              <li><span class="skill-name">OpenCV</span><span class="skill-level skill-level--intermediate">Intermediate</span></li>
+              <li><span class="skill-name">Excel</span><span class="skill-level skill-level--good">Good</span></li>
+              <li><span class="skill-name">Power BI</span><span class="skill-level skill-level--good">Good</span></li>
+              <li><span class="skill-name">Git</span><span class="skill-level skill-level--good">Good</span></li>
+              <li><span class="skill-name">GitHub</span><span class="skill-level skill-level--good">Good</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section id="experience" class="section">
+      <div class="section-inner">
+        <h2 class="section-title reveal">Internships &amp; Experience</h2>
+        <p class="section-subtitle reveal">Practical exposure gained through internships alongside my studies.</p>
+
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="glass-card timeline-card">
+              <span class="timeline-year">2025</span>
+              <h3>Flutter Developer Intern</h3>
+              <p class="timeline-company">Abservetech Pvt. Ltd.</p>
+              <p class="timeline-desc">Gained practical experience in Flutter application development, user-interface design, and mobile application workflows.</p>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="glass-card timeline-card">
+              <span class="timeline-year">2025</span>
+              <h3>Machine Learning Intern</h3>
+              <p class="timeline-company">Anjana Infotech</p>
+              <p class="timeline-desc">Worked on machine-learning concepts, Python-based data processing, model-related tasks, and practical AI/ML learning activities.</p>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="glass-card timeline-card">
+              <span class="timeline-year">2023</span>
+              <h3>Python Programming Intern</h3>
+              <p class="timeline-company">InternPe</p>
+              <p class="timeline-desc">Strengthened Python programming fundamentals and practiced problem solving through programming tasks and exercises.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section id="projects" class="section">
+      <div class="section-inner">
+        <h2 class="section-title reveal">Projects</h2>
+        <p class="section-subtitle reveal">Practical work combining AI, cloud and web development.</p>
+
+        <div class="project-grid">
+
+          <!-- Project 1 -->
+          <article class="glass-card project-card reveal">
+            <div class="project-card-head">
+              <span class="project-category">AI / Machine Learning</span>
+              <h3>Heart Disease Risk Prediction System</h3>
+            </div>
+            <p class="project-desc">A machine-learning-based application designed to support early heart disease risk assessment. The system accepts health-related inputs, preprocesses the data, and uses multiple classification algorithms to generate risk predictions.</p>
+
+            <div class="project-badges">
+              <span class="badge">Python</span>
+              <span class="badge">Streamlit</span>
+              <span class="badge">Pandas</span>
+              <span class="badge">NumPy</span>
+              <span class="badge">Scikit-learn</span>
+              <span class="badge">Matplotlib</span>
+              <span class="badge">Seaborn</span>
+              <span class="badge">SHAP</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="btn btn-outline btn-sm" data-modal-target="modal-heart" aria-haspopup="dialog">View Details</button>
+              <a class="btn btn-primary btn-sm" href="https://github.com/vjamuna200601-wq/Disease-Prediction" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="glass-card project-card reveal">
+            <div class="project-card-head">
+              <span class="project-category">Cloud / DevOps</span>
+              <h3>Kubernetes Auto-Scaling Simulation</h3>
+            </div>
+            <p class="project-desc">A DevOps project created to understand how Kubernetes handles changing workloads through automatic pod scaling. Uses a Flask API, Docker containers, Kubernetes deployments, HPA configuration, and Locust-generated traffic to simulate workload changes.</p>
+
+            <div class="project-badges">
+              <span class="badge">Python</span>
+              <span class="badge">Flask</span>
+              <span class="badge">Docker</span>
+              <span class="badge">Kubernetes</span>
+              <span class="badge">Minikube</span>
+              <span class="badge">HPA</span>
+              <span class="badge">Metrics Server</span>
+              <span class="badge">Locust</span>
+              <span class="badge">Pandas</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="btn btn-outline btn-sm" data-modal-target="modal-k8s" aria-haspopup="dialog">View Details</button>
+              <a class="btn btn-primary btn-sm" href="https://github.com/vjamuna200601-wq/retail-k8s-autoscaler" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="glass-card project-card reveal">
+            <div class="project-card-head">
+              <span class="project-category">Python / Web Development</span>
+              <h3>SheSafe – Women Safety System</h3>
+            </div>
+            <p class="project-desc">A women's safety web application designed to help users view sample route-risk information, compare routes, access emergency-related features, and find nearby police stations and hospitals.</p>
+
+            <div class="project-badges">
+              <span class="badge">Python</span>
+              <span class="badge">Flask</span>
+              <span class="badge">SQLite</span>
+              <span class="badge">HTML</span>
+              <span class="badge">CSS</span>
+              <span class="badge">JavaScript</span>
+              <span class="badge">JSON</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="btn btn-outline btn-sm" data-modal-target="modal-shesafe" aria-haspopup="dialog">View Details</button>
+              <a class="btn btn-primary btn-sm" href="https://github.com/vjamuna200601-wq/SafeRoute" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="glass-card project-card reveal">
+            <div class="project-card-head">
+              <span class="project-category">AI / Generative AI</span>
+              <h3>SmartSupport AI</h3>
+            </div>
+            <p class="project-desc">SmartSupport AI is a planned AI-powered customer support automation system designed to answer customer queries using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG). The project aims to retrieve relevant information from FAQs and company policies, provide contextual responses, and automate tasks such as order-status lookups and support ticket creation using tool calling.</p>
+
+            <p class="badge-label">Planned technologies</p>
+            <div class="project-badges">
+              <span class="badge">Python</span>
+              <span class="badge">FastAPI</span>
+              <span class="badge">LLM APIs</span>
+              <span class="badge">RAG</span>
+              <span class="badge">LangChain</span>
+              <span class="badge">ChromaDB</span>
+              <span class="badge">SQL</span>
+              <span class="badge">Streamlit</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="btn btn-outline btn-sm" data-modal-target="modal-smartsupport" aria-haspopup="dialog">View Details</button>
+              <a class="btn btn-primary btn-sm" href="https://github.com/vjamuna200601-wq/smartsupport-ai" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section id="education" class="section">
+      <div class="section-inner">
+        <h2 class="section-title reveal">Education</h2>
+
+        <div class="education-grid">
+          <div class="glass-card education-card reveal">
+            <div class="education-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 3L2 8l10 5 10-5-10-5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M6 10.5V16c0 1.5 2.5 3 6 3s6-1.5 6-3v-5.5" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <h3>B.Tech Artificial Intelligence and Data Science</h3>
+            <p class="education-meta">Ramco Institute of Technology</p>
+            <p class="education-meta">Expected Graduation: 2027</p>
+            <p class="education-meta">CGPA: 7.96 / 10</p>
+          </div>
+
+          <div class="glass-card education-card reveal">
+            <div class="education-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4z" stroke="currentColor" stroke-width="1.5"/><path d="M8 9h8M8 13h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Higher Secondary Certificate (HSC)</h3>
+            <p class="education-meta">State Board</p>
+            <p class="education-meta">Score: 68%</p>
+          </div>
+
+          <div class="glass-card education-card reveal">
+            <div class="education-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 12l2.5 2.5L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Secondary School Leaving Certificate (SSLC)</h3>
+            <p class="education-meta">State Board</p>
+            <p class="education-meta">Score: 100%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ACHIEVEMENTS ===================== -->
+    <section id="achievements" class="section">
+      <div class="section-inner">
+        <h2 class="section-title reveal">Achievements</h2>
+
+        <div class="achievements-grid">
+          <div class="glass-card achievement-card reveal">
+            <div class="achievement-icon" aria-hidden="true">🏆</div>
+            <h3>Winner – Smart Marketing Strategy Challenge</h3>
+            <p class="achievement-event">National Level ECLearnix Hackathon 360°</p>
+            <p class="achievement-year">2025</p>
+          </div>
+
+          <div class="glass-card achievement-card reveal">
+            <div class="achievement-icon" aria-hidden="true">☁️</div>
+            <h3>Google Cloud Jams</h3>
+            <p class="achievement-event">Hands-on program covering Google Cloud Platform services.</p>
+          </div>
+
+          <div class="glass-card achievement-card reveal">
+            <div class="achievement-icon" aria-hidden="true">🤖</div>
+            <h3>GenAI Exchange Hackathon 2025</h3>
+            <p class="achievement-event">By Google Cloud</p>
+            <p class="achievement-year">2025</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RESUME ===================== -->
+    <section id="resume" class="section">
+      <div class="section-inner resume-inner reveal">
+        <div class="glass-card resume-card">
+          <h2 class="section-title">Want to know more about my experience?</h2>
+          <p class="resume-desc">Explore my academic background, technical skills, internships, projects, and achievements through my resume.</p>
+          <a href="assets/resume/Jamuna_V_Resume.pdf" class="btn btn-primary" id="resumeDownloadBtn" target="_blank" rel="noopener noreferrer">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="section">
+      <div class="section-inner contact-grid">
+        <div class="contact-info reveal">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">Feel free to reach out — I'm happy to connect about opportunities, projects, or just to talk AI.</p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:vjamuna200601@gmail.com">vjamuna200601@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-label">Phone</span>
+              <a href="tel:+919500856027">+91 95008 56027</a>
+            </li>
+            <li>
+              <span class="contact-label">Location</span>
+              <span>Rajapalayam, Tamil Nadu, India</span>
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/vjamuna200601-wq" target="_blank" rel="noopener noreferrer">github.com/vjamuna200601-wq</a>
+            </li>
+            <li>
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/jamuna-v-130159289/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jamuna-v</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-form-col reveal">
+          <form class="glass-card contact-form" id="contactForm" novalidate>
+            <p class="form-note">This form is a frontend prototype. Submitting it validates your entries locally; no message is sent to a server.</p>
+
+            <div class="form-group">
+              <label for="cf-name">Name</label>
+              <input type="text" id="cf-name" name="name" required autocomplete="name">
+              <span class="form-error" id="err-name" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="cf-email">Email</label>
+              <input type="email" id="cf-email" name="email" required autocomplete="email">
+              <span class="form-error" id="err-email" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="cf-subject">Subject</label>
+              <input type="text" id="cf-subject" name="subject" required>
+              <span class="form-error" id="err-subject" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" name="message" rows="5" required></textarea>
+              <span class="form-error" id="err-message" aria-live="polite"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 Jamuna V. Built with passion for AI, Machine Learning, and technology.</p>
+      <div class="footer-links">
+        <a href="https://github.com/vjamuna200601-wq" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
+        <a href="https://www.linkedin.com/in/jamuna-v-130159289/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+        <a href="mailto:vjamuna200601@gmail.com" aria-label="Send an email">Email</a>
+      </div>
+    </div>
+    <button id="backToTop" class="back-to-top" aria-label="Back to top" hidden>
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </footer>
+
+  <!-- ===================== PROJECT MODALS ===================== -->
+  <div class="modal-overlay" id="modal-heart" role="dialog" aria-modal="true" aria-labelledby="modal-heart-title" hidden>
+    <div class="modal glass-card">
+      <button class="modal-close" data-modal-close aria-label="Close dialog">&times;</button>
+      <h3 id="modal-heart-title">Heart Disease Risk Prediction System</h3>
+      <p><strong>Features:</strong> Patient health-data input, data preprocessing, feature scaling, Gaussian Naive Bayes, Logistic Regression, Random Forest, Soft Voting ensemble, prediction probabilities, classification report, confusion matrix, Random Forest feature importance, SHAP-based explainability, interactive Streamlit interface.</p>
+      <p class="modal-note">This project is intended as a risk-assessment support tool for educational purposes. It is not a medical diagnosis system, and no accuracy value is claimed here unless verified from final evaluation results.</p>
+      <a class="btn btn-primary btn-sm" href="https://github.com/vjamuna200601-wq/Disease-Prediction" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-k8s" role="dialog" aria-modal="true" aria-labelledby="modal-k8s-title" hidden>
+    <div class="modal glass-card">
+      <button class="modal-close" data-modal-close aria-label="Close dialog">&times;</button>
+      <h3 id="modal-k8s-title">Kubernetes Auto-Scaling Simulation</h3>
+      <p><strong>Features:</strong> Flask API for simulated batch-job requests, Docker containerization, Kubernetes Deployment, Horizontal Pod Autoscaler, Minikube local cluster, CPU-based scaling configuration, Metrics Server, Locust load testing, Pandas-based workload generation, Kubernetes monitoring using kubectl commands.</p>
+      <p class="modal-note">This project is presented as a Kubernetes auto-scaling simulation. Scaling behavior is described as successfully observed only where verified through Kubernetes metrics and pod-replica changes.</p>
+      <a class="btn btn-primary btn-sm" href="https://github.com/vjamuna200601-wq/retail-k8s-autoscaler" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-shesafe" role="dialog" aria-modal="true" aria-labelledby="modal-shesafe-title" hidden>
+    <div class="modal glass-card">
+      <button class="modal-close" data-modal-close aria-label="Close dialog">&times;</button>
+      <h3 id="modal-shesafe-title">SheSafe – Women Safety System</h3>
+      <p><strong>Features:</strong> User registration and login, dashboard, source and destination entry, sample route-risk calculation, safer-route recommendation, sample risk score, sample traffic information, sample crime-level information, nearby police station details, nearby hospital details, prototype SOS feature, sample live-location link, Google Maps integration placeholder, logout option.</p>
+      <p class="modal-note">The current route-risk values are generated using sample data and Python's random module. This project is a prototype and does not currently contain a trained machine-learning model.</p>
+      <p class="modal-note">The current SOS feature returns a sample success response through the Flask <code>/sos</code> route. It does not currently send real SMS messages, WhatsApp messages, GPS alerts, or police notifications.</p>
+      <p class="modal-note">The current project includes a sample live-location feature, but continuous GPS tracking is not implemented in the current version.</p>
+      <p class="modal-note">OpenCV is not used in the current SheSafe implementation.</p>
+      <a class="btn btn-primary btn-sm" href="https://github.com/vjamuna200601-wq/SafeRoute" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-smartsupport" role="dialog" aria-modal="true" aria-labelledby="modal-smartsupport-title" hidden>
+    <div class="modal glass-card">
+      <button class="modal-close" data-modal-close aria-label="Close dialog">&times;</button>
+      <h3 id="modal-smartsupport-title">SmartSupport AI</h3>
+      <p><strong>Planned capabilities:</strong> Answer customer queries using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG), retrieve relevant information from FAQs and company policies, provide contextual responses, and automate order-status lookups and support ticket creation using tool calling.</p>
+      <p><strong>Planned technologies:</strong> Python, FastAPI, LLM APIs, RAG, LangChain, ChromaDB, SQL, Streamlit.</p>
+      <p class="modal-note">SmartSupport AI is a planned project. The features above describe its goals and are not presented as completed or deployed functionality.</p>
+      <a class="btn btn-primary btn-sm" href="https://github.com/vjamuna200601-wq/smartsupport-ai" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>
